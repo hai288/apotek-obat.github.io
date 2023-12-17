@@ -1,0 +1,35 @@
+*{
+    border: 0;
+    margin: 0;
+}
+body{
+    background: url(/img/gambar20.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    margin-top: 1px;
+    font-size: 80px;
+    font-family: Shadows Into Light;
+    color:beige;
+    padding: 10px; 
+}
+p{
+    text-align: center;
+    margin-top: 20%;
+    font-size: 40px;
+    font-size: 70px;
+    font-family: Alegreya;
+    margin-top: 20px;
+}
+img{
+    margin-left: 37%;
+    margin-top: 5%;
+    padding: 20px;
+    border-radius: 30%;
+    width: 20%;
+    height: 20%;
+    outline: 3px solid green;
+}
+

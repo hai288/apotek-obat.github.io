@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: 0;
+    text-decoration: none;
+    transition: background-color 0.5ms ease; 
+    scroll-behavior: smooth;
+    /* overflow: hidden; */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(to right, black, blue);
+    width: 100%;
+    padding: 1.4rem 8%;
+    position: fixed;
+    z-index: 1000;
+    padding: 15px;
+}
+
+.navbar .kelas a {
+    color: rgba(226, 226, 233, 0.949); 
+    text-decoration: none;
+    margin: 0 25px;
+    cursor: pointer;
+    border-radius: 30%;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: black;
+}
+
+.navbar .logo {
+    font-style: italic;
+    color: rgb(237, 237, 245);
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
+    margin-right: auto;
+    pointer-events: none;
+}
+
+.navbar span {
+    color: orange;
+}
+.bagian{
+    display: flex;
+    /* justify-content: center;  */
+    /* align-items: center; */
+    /* min-height: 100vh; */
+    margin: 90px 10px ;
+    width: 70%;
+    /* float: left; */
+    font-family: alegreya, sans-serif;
+}
+.kelas h3{
+    font-size: 30px;
+    margin-left: 30px;
+
+}
+.bagian img{
+    /* max-width: 30%;
+    border: 3px solid;
+    border-radius: 10%;
+    margin-right: 15px;
+    background-size: cover; */
+    border-top-left-radius: 10px; /* Atur radius untuk sisi kiri atas */
+    border-bottom-left-radius: 10px; /* Atur radius untuk sisi kiri bawah */
+    width: 30%; /* Sesuaikan lebar sesuai kebutuhan */
+    height: 40%; 
+
+}
+.datang{
+    font-size: 40px;
+    margin-top: 70px;
+    margin-bottom: none;
+    text-align: center;
+}
+.kelas p{
+    font-size: 1.4rem;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.karyawan2{
+    float: right;
+    /* justify-content: center;  */
+    /* align-items: center; */
+    /* min-height: 100vh; */
+    margin: 10px 1px ;
+    width: 60%;
+    /* float: left; */
+    font-family: alegreya, sans-serif;
+}
+.karyawan2 img{
+    border-top-left-radius: 10px; /* Atur radius untuk sisi kiri atas */
+    border-bottom-left-radius: 10px; /* Atur radius untuk sisi kiri bawah */
+    width: 30%; /* Sesuaikan lebar sesuai kebutuhan */
+    height: 40%; 
+    float: right;
+    margin-bottom: 50px;
+}
+.karyawan2 p{
+    font-size: 1.4rem;
+    margin-top: 20px;
+}
+.bagian1{
+    display: flex;
+    /* justify-content: center;  */
+    /* align-items: center; */
+    /* min-height: 100vh; */
+    margin: 90px 10px ;
+    width: 70%;
+    /* float: left; */
+}
+.kelas1 h3{
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+    font-family: alegreya, sans-serif;
+
+}
+.bagian1 img{
+    /* max-width: 30%;
+    border: 3px solid;
+    border-radius: 10%;
+    margin-right: 15px;
+    background-size: cover; */
+    border-top-left-radius: 10px; /* Atur radius untuk sisi kiri atas */
+    border-bottom-left-radius: 10px; /* Atur radius untuk sisi kiri bawah */
+    width: 50%; /* Sesuaikan lebar sesuai kebutuhan */
+    height: 40%; 
+    margin-top: 50px;
+
+}
+.kelas1 p{
+    font-size: 1.4rem;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: alegreya, sans-serif;
+}
+.karyawan3{
+    float: right;
+    /* justify-content: center;  */
+    /* align-items: center; */
+    /* min-height: 100vh; */
+    margin: 10px 1px ;
+    width: 60%;
+    /* float: left; */
+    font-family: alegreya, sans-serif;
+}
+.karyawan3 img{
+    border-top-left-radius: 10px; /* Atur radius untuk sisi kiri atas */
+    border-bottom-left-radius: 10px; /* Atur radius untuk sisi kiri bawah */
+    width: 30%; /* Sesuaikan lebar sesuai kebutuhan */
+    height: 40%; 
+    float: right;
+    margin-bottom: 50px;
+}
+.karyawan3 p{
+    font-size: 1.4rem;
+    margin-top: 20px;
+}
