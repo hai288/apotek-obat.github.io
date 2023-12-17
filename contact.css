@@ -82,7 +82,7 @@ body {
   flex: 1;
   height: 480px;
   background-color: #232642; 
-  background-image: url("/img/gambar18.jpg"); 
+  background-image: url("./img/gambar18.jpg"); 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0%;
