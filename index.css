@@ -219,7 +219,7 @@
 .section .bagian1 {
   text-align: center;
   color: white;
-  background-image: url(/img/gambar4.jpg);
+  background-image: url(./img/gambar4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 4rem 7% 1.4rem ;
